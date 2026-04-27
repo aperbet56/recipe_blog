@@ -293,7 +293,8 @@ footer p a {
     }
 
     .ingredients__article,
-    aside {
+    aside,
+    .instruction__text {
         max-width: 100%;
     }
 
@@ -314,9 +315,4 @@ footer p a {
     .time:last-child {
         margin-bottom: 40px;
     }
-
-    .instruction__text {
-        max-width: 100%;
-    }
-
 }
