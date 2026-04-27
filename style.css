@@ -1,0 +1,281 @@
+/**** Importation des polices ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,700;1,400;1,700&display=swap');
+
+/**** Variables css ****/
+
+:root {
+    /* Font family */
+    --text-police: "Montserrat", sans-serif;
+    --title-police: "Playfair Display", serif;
+
+    /* Colors */
+    --accent-color: #f2994a;
+    --light-black: #333333;
+    --black: #000000;
+    --gray: #bdbdbd;
+    --image-bg-color: #4f4f4f;
+    --white: #ffffff;
+    --mobile-bg: #fafafa;
+}
+
+/**** Reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+    color: var(--light-black);
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+li span {
+    font-weight: 700;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--title-police);
+    color: var(--light-black);
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 40px;
+}
+
+p,
+a {
+    font-family: var(--text-police);
+}
+
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 50px 100px;
+    font-family: var(--text-police);
+}
+
+/**** header ****/
+
+.header__title {
+    font-size: 50px;
+}
+
+.header__subtitle {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.dots {
+    margin-right: 6px;
+}
+
+.header__subtitle__text {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--image-bg-color);
+    max-width: 700px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+}
+
+.header__image,
+.header__image img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.header__image {
+    height: 557px;
+}
+
+.header__image img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/**** main ****/
+
+.main__content {
+    flex-grow: 1;
+    margin-block: 40px;
+}
+
+/**** section ingredients ****/
+
+.ingredients {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.ingredients__article {
+    max-width: 614px;
+    width: 100%;
+}
+
+.checkbox input {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+aside {
+    max-width: 230px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 12px;
+    margin-top: 70px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.102);
+}
+
+.serving {
+    display: flex;
+    align-items: center;
+}
+
+.serving,
+.time {
+    margin-bottom: 40px;
+}
+
+.time:last-child {
+    margin-bottom: 0;
+}
+
+.serving__img {
+    margin-right: 6px;
+    fill: var(--accent-color);
+}
+
+.serving__accent {
+    color: var(--accent-color);
+}
+
+.yields {
+    font-weight: bold;
+    color: var(--gray);
+}
+
+.cooking__time {
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.info .time__title {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.info p {
+    color: var(--light-black);
+    font-weight: bold;
+}
+
+.time__image {
+    fill: var(--image-bg-color);
+    margin-right: 6px;
+}
+
+/**** section instructions ****/
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.instruction {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.instruction__number {
+    background-color: var(--accent-color);
+    margin-right: 12px;
+    color: var(--white);
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    font-family: var(--title-police);
+}
+
+.instruction__text {
+    line-height: 1.5;
+    max-width: 560px;
+}
+
+.step {
+    font-weight: 700;
+}
+
+.source {
+    margin-bottom: 40px;
+}
+
+.source a {
+    color: var(--gray);
+}
+
+/***** footer *****/
+
+footer p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer p a {
+    color: var(--accent-color);
+}
