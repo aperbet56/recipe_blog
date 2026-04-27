@@ -198,7 +198,6 @@ aside {
 
 .cooking__time {
     display: flex;
-    /*justify-content: space-between;*/
     flex-direction: column;
 }
 
@@ -255,6 +254,7 @@ aside {
 .instruction__text {
     line-height: 1.5;
     max-width: 560px;
+    width: 100%;
 }
 
 .step {
@@ -278,4 +278,45 @@ footer p {
 
 footer p a {
     color: var(--accent-color);
+}
+
+/**** Responsive design version tablette ****/
+
+@media screen and (max-width: 991px) {
+    .header__image {
+        height: 400px;
+    }
+
+    .ingredients {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ingredients__article,
+    aside {
+        max-width: 100%;
+    }
+
+    .ingredients__article {
+        order: 2;
+    }
+
+    aside {
+        order: 1;
+        margin-block: 40px;
+    }
+
+    .cooking__time {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .time:last-child {
+        margin-bottom: 40px;
+    }
+
+    .instruction__text {
+        max-width: 100%;
+    }
+
 }
