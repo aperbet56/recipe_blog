@@ -156,6 +156,10 @@ body {
     height: 20px;
 }
 
+.checkbox input:checked {
+    accent-color: var(--accent-color);
+}
+
 aside {
     max-width: 230px;
     width: 100%;
@@ -267,6 +271,11 @@ aside {
 
 .source a {
     color: var(--gray);
+    transition: color 0.3s ease-in-out;
+}
+
+.source a:hover {
+    color: var(--accent-color);
 }
 
 /***** footer *****/
