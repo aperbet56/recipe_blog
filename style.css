@@ -154,11 +154,6 @@ body {
     margin-right: 12px;
     width: 20px;
     height: 20px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: 2px solid var(--light-black);
-    border-radius: 2px;
 }
 
 aside {
@@ -319,5 +314,37 @@ footer p a {
 
     .time:last-child {
         margin-bottom: 40px;
+    }
+}
+
+/**** Responsive design version mobile ****/
+
+@media screen and (max-width: 767px) {
+    body {
+        padding: 30px 12px;
+        background-color: var(--mobile-bg);
+    }
+
+    .header__title {
+        font-size: 30px;
+    }
+
+    .header__image {
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    aside {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .instruction__number {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
     }
 }
