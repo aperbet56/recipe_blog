@@ -9,7 +9,7 @@ Création d'une page de recette en HTML5 et CSS3 qui doit répondre à un cahier
 - La page web doit être responsive.
 - Consultation d'une recette avec ses ingrédients et ses instructions.
 - Possibilité de cocher une case si l'internaute possède les ingrédients.
-- voir le nombre de portions et les temps de cuisson
+- Voir le nombre de portions et les temps de cuisson
 
 ## Démonstration
 
