@@ -1,5 +1,7 @@
 ## RECIPE BLOG CHALLENGE
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
 Création d'une page de recette en HTML5 et CSS3 qui doit répondre à un cahier des charges :
