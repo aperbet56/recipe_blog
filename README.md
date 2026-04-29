@@ -11,7 +11,7 @@ Création d'une page de recette en HTML5 et CSS3 qui doit répondre à un cahier
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/recipe_blog/
 
 ## Projet développé avec
 
