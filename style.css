@@ -10,12 +10,12 @@
     --title-police: "Playfair Display", serif;
 
     /* Colors */
-    --accent-color: #f2994a;
+    --accent-color: #ff8e3c;
     --light-black: #333333;
     --black: #000000;
     --gray: #bdbdbd;
     --image-bg-color: #4f4f4f;
-    --white: #ffffff;
+    --white: #fffffe;
     --mobile-bg: #fafafa;
 }
 
@@ -75,6 +75,11 @@ a {
     font-family: var(--text-police);
 }
 
+
+::selection {
+    background-color: var(--accent-color);
+    color: var(--white);
+}
 
 /**** body ****/
 
