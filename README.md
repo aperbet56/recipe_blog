@@ -4,7 +4,7 @@
 
 ## Le challenge
 
-Création d'une page de recette en HTML5 et CSS3 qui doit répondre à un cahier des charges :
+Création d'une page de recette en HTML5, CSS3 et Javascript qui doit répondre à un cahier des charges :
 
 - La page web doit être responsive.
 - Consultation d'une recette avec ses ingrédients et ses instructions.
@@ -27,3 +27,5 @@ Lien vers le projet : https://aperbet56.github.io/recipe_blog/
 - Commentaires CSS
 - Importation des polices "Montserrat" et "Playfair Display"
 - Utilisation d'un normaliseur : le fichier normalize.css
+- JavaScript
+- Code JavaScript commenté
